@@ -1,0 +1,197 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: beige; */
+}
+
+.nav-item {
+    margin: auto 20px;
+}
+
+.home-name {
+    font-size: 30px;
+}
+
+.nav-item-p {
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-item-a, .home-name-a {
+    text-decoration: none;
+    color: rgb(24, 33, 32);
+}
+
+
+.nav-item-a:hover, .home-name-a:hover {
+    color: rgb(174, 180, 212);
+    transition: color .4s ease 0s;
+}
+
+
+.social-profiles-section {
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.social-profile-li {
+    margin: 0 1.5rem;
+}
+
+.social-profile-div {
+    background-color: #182153;
+}
+
+.background-image {
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    --bg-overlay-color: rgb(24, 33, 83);
+}
+
+.profile-box {
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 1000;
+}
+
+.footer-class {
+    background-color: rgb(241, 241, 241);
+    padding: 15px 0;
+}
+
+.contact-me-footer {
+    padding: 10px 0;
+}
+
+footer h2, .section-heading {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
+
+.profile-data {
+    min-height: 460px;
+    max-height: 460px;
+    max-width: 460px;
+    min-width: 460px;
+    padding: 4rem;
+    background-color: #f1f1f1;
+}
+
+.bio {
+    background-color: rgb(241, 241, 241);
+    background-color: #182153;
+    color: #fff;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.bio-row {
+    padding: 2rem 25%;
+}
+
+.bio-description {
+    padding: 2rem 0;
+}
+
+.content-wrap {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.section-heading {
+    padding: 4rem 0 2rem 0;
+}
+
+.col-narrow {
+    width: 30%;
+}
+
+.col-wide {
+    width: 70%;
+}
+
+.job-description {
+    align-items: center;
+    display: grid;
+    justify-content: start;
+    /* border: 1px solid black; */
+}
+
+.card {
+    margin: 10px 5px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.btn-primary {
+    margin: 0.4rem auto;
+    font-weight: 400;
+    border-width: 2px;
+    display: block;
+}
+
+
+.btn-primary i {
+    padding-left: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #182153;
+}
+
+.navbar-div {
+    position: fixed;
+    z-index: 10000;
+}
+
+#Certifications {
+    padding-bottom: 2rem;
+}
+
+.row {
+    margin: 0 !important;    
+}
+
+.section-row {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile-picture {
+        width: fit-content;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .profile-box {
+        display: block;
+    }
+
+    .profile-box div {
+        width: auto;
+    }
+
+    .profile-picture {
+        width: 100%;
+    }
+  
+    /* .profile-box div, .profile-box div div {
+    width: 90%;
+    display: block !important; 
+    margin: auto; 
+    margin-bottom: 25px;
+    padding: 0;
+      
+    } */
+    
+  }
