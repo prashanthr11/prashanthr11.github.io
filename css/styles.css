@@ -165,15 +165,10 @@ footer h2,
   padding-left: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
-  .profile-picture {
-    width: fit-content;
-  }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .profile-box {
-    display: block;
+    justify-content: center !important;
   }
 
   .profile-box div {
@@ -181,6 +176,6 @@ footer h2,
   }
 
   .profile-picture {
-    width: 100%;
+    width: 20.5rem;
   }
 }
